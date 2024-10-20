@@ -1,5 +1,5 @@
 # Stock Info Interface
-#### Video Demo: <URL HERE>
+#### Video Demo: https://www.youtube.com/watch?v=Npy2_qlBSwU
 #### Description:
 This Interface gives the user the latest stock price of a stock depending on how long ago the user requests the data, ranging from 1 day ago to 5 years ago.
 Includes feature such as multi-stock input, chart-like output, which makes it easy to read.
