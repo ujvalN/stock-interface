@@ -1,10 +1,10 @@
-# Stock Info Interface
-#### Video Demo: https://www.youtube.com/watch?v=Npy2_qlBSwU
-#### Description:
-##### Overview
+# Simple Stock Market Interface(SSMI)
+## Video Demo: https://www.youtube.com/watch?v=Npy2_qlBSwU
+## Description:
+### Overview
 This project is a Python-based tool designed to fetch, display, and analyze stock market data using the yfinance library. By providing stock symbols and a desired number of days for historical data, users can retrieve key financial metrics such as the stock's opening and closing prices, volume, market capitalization, P/E ratio, and dividend yield. Additionally, it allows users to review historical stock price data in an easy-to-read format.
 
-##### What I Did
+### What I Did
 The core functionality of the project centers around creating an interactive program that retrieves and displays stock market information from Yahoo Finance. The primary tasks I focused on include:
 
 Data Retrieval: Using the yfinance library, the program fetches historical stock data based on user input. Users enter the stock ticker symbols (e.g., AAPL for Apple) and the number of days for which they want to see historical data.
@@ -17,7 +17,7 @@ User Interaction: The program runs in a loop, allowing users to repeatedly fetch
 
 Historical Data Output: The program provides a well-structured output of the historical stock prices for the specified number of days. This includes a table showing the stock's open, high, low, close, and volume values over the given period.
 
-##### What I Wanted to Do
+### What I Would Do to Improve
 While the current implementation covers essential stock data retrieval and display, there were several features and improvements I initially wanted to implement but didn't due to complexity:
 
 Graphical Visualization: I wanted to integrate a graphical representation of the stock data, such as line charts showing the stock's price trends over time. This could be done using libraries like matplotlib or plotly to visually display the stock's performance.
@@ -30,7 +30,7 @@ User-Friendly Interface: Rather than a command-line interface, I thought of deve
 
 Error Handling and Testing: While basic error handling is included, I had plans to further refine it by ensuring that all edge cases were handled gracefully. For example, better handling for network issues, API rate limits, or more detailed feedback when invalid input is provided.
 
-##### What the Project Does
+### What the Project Does
 The project allows users to:
 
 Fetch stock data for multiple stock symbols at once. Users can input a comma-separated list of stock symbols, and the program will retrieve and display the relevant data for each one.
