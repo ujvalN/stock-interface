@@ -1,4 +1,5 @@
 # Simple Stock Market Interface(SSMI)
+## Video Demo: https://www.youtube.com/watch?v=Npy2_qlBSwU
 ## Description:
 ### Overview
 This project is a Python-based tool designed to fetch, display, and analyze stock market data using the yfinance library. By providing stock symbols and a desired number of days for historical data, users can retrieve key financial metrics such as the stock's opening and closing prices, volume, market capitalization, P/E ratio, and dividend yield. Additionally, it allows users to review historical stock price data in an easy-to-read format.
